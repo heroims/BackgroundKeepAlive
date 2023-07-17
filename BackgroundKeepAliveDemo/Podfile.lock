@@ -1,0 +1,16 @@
+PODS:
+  - BackgroundKeepAlive (0.1.0)
+
+DEPENDENCIES:
+  - BackgroundKeepAlive (from `../BackgroundKeepAlive.podspec`)
+
+EXTERNAL SOURCES:
+  BackgroundKeepAlive:
+    :path: "../BackgroundKeepAlive.podspec"
+
+SPEC CHECKSUMS:
+  BackgroundKeepAlive: e15e3739a652461fcbc7454f54fd2d0dff71411a
+
+PODFILE CHECKSUM: 6d6785222339e67ac21838d52a461fba098bf01b
+
+COCOAPODS: 1.12.1

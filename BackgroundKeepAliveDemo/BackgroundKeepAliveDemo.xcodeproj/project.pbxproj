@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84283BD32A6519FF00A55332 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84283BD22A6519FF00A55332 /* AppDelegate.m */; };
+		84283BD62A6519FF00A55332 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84283BD52A6519FF00A55332 /* SceneDelegate.m */; };
+		84283BD92A6519FF00A55332 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84283BD82A6519FF00A55332 /* ViewController.m */; };
+		84283BDC2A6519FF00A55332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84283BDA2A6519FF00A55332 /* Main.storyboard */; };
+		84283BDE2A651A0200A55332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84283BDD2A651A0200A55332 /* Assets.xcassets */; };
+		84283BE12A651A0200A55332 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84283BDF2A651A0200A55332 /* LaunchScreen.storyboard */; };
+		84283BE42A651A0200A55332 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84283BE32A651A0200A55332 /* main.m */; };
+		CDDA0243951500022FAF2323 /* libPods-BackgroundKeepAliveDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A55B27B8812A55D7ED2A5526 /* libPods-BackgroundKeepAliveDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21A9DD29A4F7E354BE0F5161 /* Pods-BackgroundKeepAliveDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackgroundKeepAliveDemo.debug.xcconfig"; path = "Target Support Files/Pods-BackgroundKeepAliveDemo/Pods-BackgroundKeepAliveDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		84283BCE2A6519FF00A55332 /* BackgroundKeepAliveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackgroundKeepAliveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84283BD12A6519FF00A55332 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84283BD22A6519FF00A55332 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84283BD42A6519FF00A55332 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		84283BD52A6519FF00A55332 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		84283BD72A6519FF00A55332 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84283BD82A6519FF00A55332 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84283BDB2A6519FF00A55332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84283BDD2A651A0200A55332 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84283BE02A651A0200A55332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84283BE22A651A0200A55332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84283BE32A651A0200A55332 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A55B27B8812A55D7ED2A5526 /* libPods-BackgroundKeepAliveDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BackgroundKeepAliveDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8BA7416ADBB85F4C1CB2077 /* Pods-BackgroundKeepAliveDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackgroundKeepAliveDemo.release.xcconfig"; path = "Target Support Files/Pods-BackgroundKeepAliveDemo/Pods-BackgroundKeepAliveDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84283BCB2A6519FF00A55332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDA0243951500022FAF2323 /* libPods-BackgroundKeepAliveDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84283BC52A6519FF00A55332 = {
+			isa = PBXGroup;
+			children = (
+				84283BD02A6519FF00A55332 /* BackgroundKeepAliveDemo */,
+				84283BCF2A6519FF00A55332 /* Products */,
+				D1B6C5C2DD42A1EC9DC58A5E /* Pods */,
+				B72EE9511158AB3928AAD15A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84283BCF2A6519FF00A55332 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84283BCE2A6519FF00A55332 /* BackgroundKeepAliveDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84283BD02A6519FF00A55332 /* BackgroundKeepAliveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				84283BD12A6519FF00A55332 /* AppDelegate.h */,
+				84283BD22A6519FF00A55332 /* AppDelegate.m */,
+				84283BD42A6519FF00A55332 /* SceneDelegate.h */,
+				84283BD52A6519FF00A55332 /* SceneDelegate.m */,
+				84283BD72A6519FF00A55332 /* ViewController.h */,
+				84283BD82A6519FF00A55332 /* ViewController.m */,
+				84283BDA2A6519FF00A55332 /* Main.storyboard */,
+				84283BDD2A651A0200A55332 /* Assets.xcassets */,
+				84283BDF2A651A0200A55332 /* LaunchScreen.storyboard */,
+				84283BE22A651A0200A55332 /* Info.plist */,
+				84283BE32A651A0200A55332 /* main.m */,
+			);
+			path = BackgroundKeepAliveDemo;
+			sourceTree = "<group>";
+		};
+		B72EE9511158AB3928AAD15A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A55B27B8812A55D7ED2A5526 /* libPods-BackgroundKeepAliveDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1B6C5C2DD42A1EC9DC58A5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21A9DD29A4F7E354BE0F5161 /* Pods-BackgroundKeepAliveDemo.debug.xcconfig */,
+				E8BA7416ADBB85F4C1CB2077 /* Pods-BackgroundKeepAliveDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84283BCD2A6519FF00A55332 /* BackgroundKeepAliveDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84283BE72A651A0200A55332 /* Build configuration list for PBXNativeTarget "BackgroundKeepAliveDemo" */;
+			buildPhases = (
+				F4913BA9B0ECAB8A979F4E31 /* [CP] Check Pods Manifest.lock */,
+				84283BCA2A6519FF00A55332 /* Sources */,
+				84283BCB2A6519FF00A55332 /* Frameworks */,
+				84283BCC2A6519FF00A55332 /* Resources */,
+				3CAA4330594AF9EF6179C7CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BackgroundKeepAliveDemo;
+			productName = BackgroundKeepAliveDemo;
+			productReference = 84283BCE2A6519FF00A55332 /* BackgroundKeepAliveDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84283BC62A6519FF00A55332 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					84283BCD2A6519FF00A55332 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 84283BC92A6519FF00A55332 /* Build configuration list for PBXProject "BackgroundKeepAliveDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84283BC52A6519FF00A55332;
+			productRefGroup = 84283BCF2A6519FF00A55332 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84283BCD2A6519FF00A55332 /* BackgroundKeepAliveDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84283BCC2A6519FF00A55332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84283BE12A651A0200A55332 /* LaunchScreen.storyboard in Resources */,
+				84283BDE2A651A0200A55332 /* Assets.xcassets in Resources */,
+				84283BDC2A6519FF00A55332 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CAA4330594AF9EF6179C7CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BackgroundKeepAliveDemo/Pods-BackgroundKeepAliveDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BackgroundKeepAliveDemo/Pods-BackgroundKeepAliveDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BackgroundKeepAliveDemo/Pods-BackgroundKeepAliveDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4913BA9B0ECAB8A979F4E31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BackgroundKeepAliveDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84283BCA2A6519FF00A55332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84283BD92A6519FF00A55332 /* ViewController.m in Sources */,
+				84283BD32A6519FF00A55332 /* AppDelegate.m in Sources */,
+				84283BE42A651A0200A55332 /* main.m in Sources */,
+				84283BD62A6519FF00A55332 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84283BDA2A6519FF00A55332 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84283BDB2A6519FF00A55332 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84283BDF2A651A0200A55332 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84283BE02A651A0200A55332 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84283BE52A651A0200A55332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84283BE62A651A0200A55332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84283BE82A651A0200A55332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21A9DD29A4F7E354BE0F5161 /* Pods-BackgroundKeepAliveDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YDDJ83LVSQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BackgroundKeepAliveDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zyq.BackgroundKeepAliveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84283BE92A651A0200A55332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8BA7416ADBB85F4C1CB2077 /* Pods-BackgroundKeepAliveDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YDDJ83LVSQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BackgroundKeepAliveDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zyq.BackgroundKeepAliveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84283BC92A6519FF00A55332 /* Build configuration list for PBXProject "BackgroundKeepAliveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84283BE52A651A0200A55332 /* Debug */,
+				84283BE62A651A0200A55332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84283BE72A651A0200A55332 /* Build configuration list for PBXNativeTarget "BackgroundKeepAliveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84283BE82A651A0200A55332 /* Debug */,
+				84283BE92A651A0200A55332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84283BC62A6519FF00A55332 /* Project object */;
+}
